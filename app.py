@@ -84,3 +84,7 @@ def upload_file(): #ルートが呼ばれた時に呼ばれる関数
         </body>
         </html>
         '''
+
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
